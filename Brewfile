@@ -6,6 +6,7 @@ cask_args appdir: "/Applications"
 
 brew "docker"
 brew "docker-compose"
+brew "go"
 brew "git"
 brew "protobuf"
 brew "rust"
