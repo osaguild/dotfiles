@@ -1,4 +1,7 @@
 #!/bin/bash
+echo "...installing homebrew"
+brew bundle
+
 echo "...getting backup to ~/bk_dotfiles"
 mkdir ~/bk_dotfiles
 mv ~/.vimrc ~/bk_dotfiles
