@@ -13,5 +13,8 @@ echo "...copying files to ~/"
 cp .vimrc ~/.vimrc
 cp .zshrc ~/.zshrc
 
+echo "...installing zsh plugins"
+curl -sL --proto-redir -all,https https://raw.githubusercontent.com/zplug/installer/master/installer.zsh | zsh
+
 echo "...reflecting path"
 source ~/.zshrc
