@@ -4,10 +4,12 @@ tap "homebrew/core"
 
 cask_args appdir: "/Applications"
 
+brew "curl"
 brew "docker"
 brew "docker-compose"
 brew "go"
 brew "git"
+brew "jq"
 brew "protobuf"
 brew "rust"
 brew "yarn"
