@@ -10,3 +10,4 @@ export PATH="
 /Users/osaguild/.nvm/versions/node/v16.15.1/bin:
 /System/Cryptexes/App/usr/bin
 "
+export LANG=ja_JP.UTF-8
