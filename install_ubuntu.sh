@@ -15,6 +15,8 @@ chsh -s $(which zsh)
 
 echo "...getting backup to ~/bk_dotfiles"
 mkdir ~/bk_dotfiles
+mv ~/.bash_logout ~/bk_dotfiles
+mv ~/.bashrc ~/bk_dotfiles
 mv ~/.vimrc ~/bk_dotfiles
 mv ~/.zprofile ~/bk_dotfiles
 mv ~/.zshenv ~/bk_dotfiles
