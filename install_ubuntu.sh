@@ -1,9 +1,12 @@
 #!/bin/bash
 echo "...updating package"
-apt-get update upgrade
+apt-get update
+apt-get upgrade
 
-echo "...installing zsh"
-sudo apt-get install curl go git jq rust tree yarn zsh
+echo "...installing packages"
+sudo apt-get install curl git jq tree yarn zsh
+
+echo "...setting up zsh to default shell"
 chsh -s $(which zsh)
 
 echo "...getting backup to ~/bk_dotfiles"
