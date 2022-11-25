@@ -4,7 +4,10 @@ apt-get update
 apt-get upgrade
 
 echo "...installing packages"
-sudo apt-get install curl git jq tree yarn zsh
+sudo apt-get install curl git golang jq tree yarn zsh
+
+echo "...installing rust"
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 
 echo "...setting up zsh to default shell"
 chsh -s $(which zsh)
