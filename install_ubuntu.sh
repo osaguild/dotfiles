@@ -3,7 +3,7 @@ echo "...updating package"
 apt-get update upgrade
 
 echo "...installing zsh"
-apt-get install curl go git jq rust tree yarn zsh
+sudo apt-get install curl go git jq rust tree yarn zsh
 chsh -s $(which zsh)
 
 echo "...getting backup to ~/bk_dotfiles"
