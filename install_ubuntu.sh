@@ -8,6 +8,7 @@ sudo apt-get install curl git golang jq tree yarn zsh
 
 echo "...installing rust"
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+source $HOME/.cargo/bin
 
 echo "...setting up zsh to default shell"
 chsh -s $(which zsh)
