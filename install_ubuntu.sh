@@ -16,7 +16,7 @@ mv ~/.zshrc ~/bk_dotfiles
 
 echo "...copying files to ~/"
 cp .vimrc ~/.vimrc
-cp ./ubuntu/zshrc ~/.zshrc
+cp ./ubuntu/.zshrc ~/.zshrc
 
 echo "...installing zsh plugins"
 curl -sL --proto-redir -all,https https://raw.githubusercontent.com/zplug/installer/master/installer.zsh | zsh
