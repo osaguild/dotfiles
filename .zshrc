@@ -4,7 +4,6 @@ source ~/.zplug/init.zsh
 zplug 'zplug/zplug', hook-build:'zplug --self-manage'
 zplug "mafredri/zsh-async"
 zplug "peco/peco"
-zplug "sindresorhus/pure"
 zplug "zsh-users/zsh-syntax-highlighting"
 zplug "zsh-users/zsh-history-substring-search"
 zplug "zsh-users/zsh-autosuggestions"
