@@ -1,4 +1,6 @@
-export PATH="/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/usr/bin:/usr/sbin:/bin:/sbin:/Users/osaguild/.cargo/bin:/Users/osaguild/go/bin:/Users/osaguild/.nvm/versions/node/v16.15.1/bin:/System/Cryptexes/App/usr/bin"
+export PATH=/usr/local/bin:$PATH
+export LANGUAGE=ja_JP.UTF-8
+export LC_ALL=ja_JP.UTF-8
 export LANG=ja_JP.UTF-8
 source ~/.zplug/init.zsh
 zplug 'zplug/zplug', hook-build:'zplug --self-manage'
