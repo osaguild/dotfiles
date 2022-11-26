@@ -9,6 +9,7 @@ sudo apt-get install curl git golang jq locales-all make npm tree ubuntu-desktop
 echo "...installing rust"
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 source $HOME/.cargo/bin
+source %HOME/.cargo/env
 
 echo "...setting up zsh to default shell"
 chsh -s $(which zsh)
