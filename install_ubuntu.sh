@@ -4,7 +4,7 @@ apt-get update
 apt-get upgrade
 
 echo "...installing packages"
-sudo apt-get install curl git golang jq locales-all make npm tree ubuntu-desktop yarn zsh
+sudo apt-get install curl git golang jq locales-all make npm tree yarn zsh
 
 echo "...installing rust"
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
