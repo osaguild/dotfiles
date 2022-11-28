@@ -11,7 +11,7 @@
 
 ## setting for ubuntu
 ```
-sudu apt install git
+sudo apt install git
 git clone https://github.com/osaguild/dotfiles
 cd dotfiles
 ./install_ubuntu.sh
