@@ -5,9 +5,9 @@
 - download Ubuntu from [here](https://ubuntu.com/download/server)
 
 ## recommend setting for UTM
-- CPU: 2
+- CPU: 4
 - Memory: 4GB
-- Storage: 64GB
+- Storage: 128GB
 
 ## setting for ubuntu
 ```
@@ -15,4 +15,6 @@ sudu apt install git
 git clone https://github.com/osaguild/dotfiles
 cd dotfiles
 ./install_ubuntu.sh
+reboot
+source $HOME/.cargo/env
 ```
